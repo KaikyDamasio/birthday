@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                timer for my birthday 
+            </p>
+            <span class="hero__span" id="contador"></span>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class=" infos-bar__infos__item">
+                        <b>Localização</b>
+                        Allianz Parque - Barra Funda - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        06/03/2006 às 19hrs
+                    </li>
+                </ul>
+                <a class="button button--primary" href="#">
+                    Confirme sua presença
+                </a>
+            </div> 
+        </div>
+    </header>
+    <section class="event event__convite event__reverse">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Convite Especial!
+                </h2>
+                <p class="event__details__description">
+                    É com muita alegria que convido você para celebrar comigo mais um ano de vida! Será uma festa cheia de sorrisos, momentos especiais e boa energia.Sua presença é fundamental para tornar este dia ainda mais especial. Conto com você para compartilhar essa ocasião única comigo!
+                </p>
+            </div>
+            <img class="event__image" src="./images/section_1.png" alt="">
+        </div>
+    </section>
+    <section class="event event__detalhes event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Roteiro da Festa!
+                </h2>
+                <div class="event__details__description">
+                    <p>19:00 - Chegada dos convidados e recepção com drinks especiais</p>
+                    <p>20:00 - Abertura oficial do evento com um brinde ao aniversariante</p>
+                    <p>20:30 - Momento de saborear deliciosas comidas</p>
+                    <p>21:30 - Música ao vivo para animar a pista de dança</p>
+                    <p>22:30 - Surpresa especial e bolo de aniversário</p>
+                    <p>23:00 - Continuação da festa com DJ e mais música para celebrar até tarde!</p>
+                </div>
+            </div>
+            <img class="event__image" src="./images/section_2.png" alt="">
+        </div>
+    </section>
+    <section class="event event__presentes">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Presentes e Considerações
+                </h2>
+                <p class="event__details__description">
+                    Sua presença é o maior presente que poderia receber! Caso deseje nos presentear de outra forma, ficaria extremamente grato com a sua consideração.
+                </p>
+            </div>
+            <img class="event__image" src="./images/section_3.png" alt="">
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

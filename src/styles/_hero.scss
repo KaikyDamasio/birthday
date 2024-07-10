@@ -1,0 +1,51 @@
+.hero{
+    padding-top: 64px;
+    padding-bottom: 100px;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .container{
+        position: relative;
+    }
+
+    &::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        background-color: #000;
+        width: 100%;
+        height: 100%;
+        opacity: 0.3;
+    }
+
+    &__text,
+    &__span{
+        margin-top: 60px;
+        font-family: Playwrite HU, cursive;
+        font-size: 60px;
+        font-weight: 800px;
+        text-align: center;
+    }
+
+    &__span{
+       display: flex;
+       justify-content: center;
+    }
+
+    @media (max-width:1024px) {
+        &__text,
+        &__span{
+            font-size: 50px;
+        }
+    }
+
+    @media (max-width:640px) {
+        &__text,
+        &__span{
+            font-size: 30px;
+        }
+    }
+}
